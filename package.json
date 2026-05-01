@@ -1,0 +1,17 @@
+{
+  "name": "learning_git_github_26",
+  "version": "1.0.0",
+  "description": "this is my 1 repo\r <br>\r auther:- dhvanil gaudani (dg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}
