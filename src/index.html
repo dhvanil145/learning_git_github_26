@@ -7,6 +7,98 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <h1>dsgagadfhdwewwew</h1>
+    <header class="">
+        <div class="border-b-2 border-b-gray-500">
+            <nav class="max-w-7xl mx-auto px-4 flex justify-between items-center py-3 ">
+                <div class="flex items-center gap-4">
+                <img src="https://shadcncomponents.dev/logo.png" alt="" width="30px" height="30px" class="">
+                <h2 class="hidden sm:block sm:text-xl sm:font-bold">shadcn/studio</h2>
+                </div>
+            
+                <ul class="hidden  md:flex md:items-center md:gap-16 md:text-gray-700">
+                    <li class="hover:border-gray-400 px-3 py-1 hover:rounded-[5px] hover:text-black hover:bg-gray-200"><a href="#">Home</a></li>
+                    <li class="hover:border-gray-400 px-3 py-1 hover:rounded-[5px] hover:text-black hover:bg-gray-200"><a href="#">Marketing</a></li>
+                    <li class="hover:border-gray-400 px-3 py-1 hover:rounded-[5px] hover:text-black hover:bg-gray-200"><a href="#">Contact</a></li>
+                </ul>
+                <div class="space-x-2">
+                <button class="inline md:hidden border border-gray-400 bg-white px-1.5 py-1 rounded-[5px] hover:bg-gray-200 cursor-pointer">🔎</button>
+                <button class="border border-gray-400 bg-white px-1.5 py-1 rounded-[5px] hover:bg-gray-200 cursor-pointer">🔔</button>
+                <button class=" border border-white bg-gray-300 px-1.5 py-1 rounded-[5px] cursor-pointer">👨🏻</button>
+                <button id="menu-btn" class=" md:hidden border border-gray-400 bg-white px-2 py-1 rounded-[5px] hover:bg-gray-200 cursor-pointer">
+                    ☰
+                </button>
+                </div>
+            </nav>
+        </div>
+        <nav class="max-md:hidden flex px-4 justify-between  my-3 max-w-7xl mx-auto items-center ">
+            <ul class=" md:flex md:gap-8 md:text-gray-400 md:font-semibold">
+                <li>Projects</li>
+                <li>Sales</li>
+                <li>Team</li>
+                <li>Task</li>
+                <li>Blog</li>
+            </ul>
+             <form action="">
+                <input type="text" name="input" id="input" placeholder="Type here" class="input md:inline md:text-black md:border md:border-gray-400 py-1.5 px-3 md:bg-white md:placeholder:text-gray-500 md:rounded-sm">
+                <button class=" md:inline md:border px-2 py-1.5 md:rounded-[5px] md:cursor-pointer md:bg-black  md:transition-all md:duration-300 md:ease-in-out">🔎</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-gray-500 ">
+            <div class="flex flex-col justify-center items-center sm:items-center md:items-start lg:items-end py-40 px-4 gap-4 text-white max-w-7xl mx-auto">
+            <h1 class="text-4xl">One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <button class=" sm:self-center md:self-start lg:self-end cursor-pointer text-white bg-blue-700 px-4 py-2 rounded-[5px] hover:bg-blue-900">Browse gallary</button>
+            </div>
+        </section>
+        <section class=" grid grid-cols-1 px-4 md:grid-cols-3 md:max-w-7xl md:mx-auto border-b border-gray-400 pb-25 text-center">
+            <div class=" flex flex-col justify-center items-center mt-10 gap-3 text-gray-500">
+                <div class="bg-gray-500 size-25 rounded-full"></div>
+                <h2 class="text-3xl">Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <button class="cursor-pointer text-white bg-gray-500 px-3 py-2 rounded-[5px]">view details >></button>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-10 gap-3 text-gray-500">
+                <div class="bg-gray-500 size-25 rounded-full"></div>
+                <h2 class="text-3xl">Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <button class="cursor-pointer text-white bg-gray-500 px-3 py-2 rounded-[5px]">view details >></button>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-10 gap-3 text-gray-500">
+                <div class="bg-gray-500 size-25 rounded-full"></div>
+                <h2 class="text-3xl">Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <button class="cursor-pointer text-white bg-gray-500 px-3 py-2 rounded-[5px]">view details >></button>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto text-gray-500">
+            <div class=" grid grid-cols-1 md:grid-cols-2 md:gap-32 p-4 my-20 pb-20 border-b border-b-gray-400">
+                <div class="space-y-6 order-1 md:order-1">
+                    <h2 class="text-6xl">First featurette heading. It'll blow your mind.</h2>
+                    <p class="text-2xl">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="w-full h-125 bg-olive-400 order-2 md:order-2"> </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-32 p-4">
+                <div class="w-full h-125 bg-olive-400 order-2 md:order-1"></div>
+                <div class="space-y-6 order-1 md:order-2">
+                    <h2 class="text-6xl">First featurette heading. It'll blow your mind.</h2>
+                    <p class="text-2xl">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-32 p-4 my-20 pb-20 border-b border-b-gray-400">
+                <div class="space-y-6 order-1 md:order-1">
+                    <h2 class="text-6xl">First featurette heading. It'll blow your mind.</h2>
+                    <p class="text-2xl">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="w-full h-125 bg-olive-400 order-2 md:order-2"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="max-w-7xl mx-auto flex justify-between p-4 pb-20">
+        <p>© 2017-2018 Company, Inc. <a href="#" class="underline text-blue-500">Privacy</a><a href="#" class="underline text-blue-500">Terms</a></p>
+        <a href="#" target="_top" class="text-blue-500">Back to top</a>
+    </footer>
 </body>
 </html>
